@@ -48,6 +48,6 @@ Buckets - хранилище пар ключ-значение. Если в ка�
 7. **Каков порядок перебора map?**  
 Случайным образом.  
 
-*Как получить одно случайное значение из map?*
+*Как получить одно случайное значение из map?*  
 The only way to select a random key from a map is to put all the keys into a slice and then pick a random element from that slice. If you need the elements in a truly random order, use rand.Perm() to generate a random permutation of the array and process them in that order.  
 
