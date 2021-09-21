@@ -2,6 +2,40 @@
 
 Источник вопросов: [Коллеги, вы меня огорчаете](https://habr.com/ru/company/oleg-bunin/blog/521582/).
 
+0. **Fizz Buzz**  
+https://play.golang.org/p/vpK4dWVjYFD
+
+```go
+package main
+
+import (
+	"fmt"
+	"strconv"
+	"strings"
+)
+
+func main() {
+	for i := 1; i <= 100; i++ {
+		var sb strings.Builder
+
+		if (i % 3) == 0 {
+			sb.WriteString("Fizz")
+		}
+
+		if (i % 5) == 0 {
+			sb.WriteString("Buzz")
+		}
+
+		if sb.Len() == 0 {
+			sb.WriteString(strconv.Itoa(i))
+		}
+
+		fmt.Println(sb.String())
+	}
+}
+
+```
+
 1. **Go — императивный или декларативный? А в чем разница?**  
 Go - это императивный язык программирования.  
 В императивных ЯП мы опизсываем как надо решать задачу.  
@@ -91,3 +125,5 @@ JSON — один из популярных форматов для сериал
 
 
 14. **Предположим, ваша функция должна возвращать детализированные Recoverable и Fatal ошибки. Как это реализовано в пакете net? Как это надо делать в современном Go?**  
+
+
