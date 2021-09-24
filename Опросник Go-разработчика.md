@@ -151,6 +151,8 @@ https://habr.com/ru/post/265833/
 
 
 16. **Отличие релиционных БД от NoSQL**  
+https://habr.com/ru/company/ruvds/blog/324936/
+
 
 17. **Индексы в БД, как устроены и как работают.**  
 [Индексы в PostgreSQL](https://habr.com/ru/company/postgrespro/blog/326096/)
