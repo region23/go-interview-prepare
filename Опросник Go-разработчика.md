@@ -38,7 +38,7 @@ func main() {
 
 1. **Go — императивный или декларативный? А в чем разница?**  
 Go - это императивный язык программирования.  
-В императивных ЯП мы опизсываем как надо решать задачу.  
+В императивных ЯП мы описываем как надо решать задачу.  
 А в декларативных ЯП мы говорим, что конкретно надо сделать.
 Имперптивные ЯП: Go, C++, C#, Java, Python)  
 Декларативные ЯП: HTML, CSS, SQL, Dockerfile, Github Actions.
@@ -93,6 +93,10 @@ The only way to select a random key from a map is to put all the keys into a sli
 - A send to a closed channel panics
 - A receive from a closed channel returns the zero value immediately  
 
+[Как работают go-рутины](https://habr.com/ru/post/412715/)  
+[Конкурентность не параллелизм](https://medium.com/nuances-of-programming/%D0%BA%D0%BE%D0%BD%D0%BA%D1%83%D1%80%D0%B5%D0%BD%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D0%B8-%D0%BF%D0%B0%D1%80%D0%B0%D0%BB%D0%BB%D0%B5%D0%BB%D0%B8%D0%B7%D0%BC-%D0%B2-golang-go-%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D0%B4%D1%83%D1%80%D1%8B-82bae0f92e81)
+
+
 Подробнее [в посте Дейва Чейни](https://dave.cheney.net/2014/03/19/channel-axioms).
 
 10. **Как вы отсортируете массив структур по алфавиту по полю Name?**  
@@ -129,3 +133,10 @@ JSON — один из популярных форматов для сериал
 https://habr.com/ru/company/mailru/blog/473658/  
 
 
+15. **Как в Go устроен GC (Garbage Collector)**  
+https://habr.com/ru/post/265833/
+
+
+16. **Отличие релиционных БД от NoSQL**  
+
+17. **Индексы в БД, как устроены и как работают.**  
